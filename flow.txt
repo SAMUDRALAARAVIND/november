@@ -1,0 +1,17 @@
+f1 => HTML , CSS, Bootstrap, little bit of js
+f2 => JS Part 1 => Core js, DOM, Excalidraw | Employee Management system | Google sheet clone | Jira dashboard.
+f3 => Advanced js topics | Projects | youtube clone.
+f4 => React
+
+Placement readiness modules
+
+nodejs => JavaScript
+
+weekly contest :
+ 1. Mini project ( 100 )
+ 2. Javascript coding questions | 3Q ( 90 )
+ 3. Mcq ( 30 ) 
+ 220 Marks
+
+ 8PM - 11PM => 15min
+

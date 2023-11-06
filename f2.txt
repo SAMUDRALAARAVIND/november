@@ -1,0 +1,10 @@
+Topics covered: 
+    data types
+    operators
+    loops
+    conditional statements
+    functions 
+    arrays
+    Hoisting
+    scope 
+    arrow functions
