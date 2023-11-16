@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      .container {
+        padding: 0 20px;
+        border-radius: 10px;
+        border: 2px solid red;
+      }
+      #age {
+        border: none;
+        background-color: #e7e7e7;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <form class="container" style="border: 1px solid #e7e7e7">
+      <input type="number" required placeholder="Age" id="age" name="age" />
+      <button class="btn" id="rahul">Submit</button>
+    </form> -->
+
+    <span class="container" onclick="printName()">Span Element</span>
+
+    <!-- 
+      form: 
+      { 
+        tagName: "form",
+        className: "container",
+        style: {
+          border: "1px solid #e7e7e7",
+          padding: "10px",
+          margin: "20px",
+          display: "flex" ,
+          ...
+        },
+        children: [ input, button ]
+      }
+
+      input: 
+      {
+        tagName: "input",
+        type: "number",
+        required: true ,
+        placeholder: "Age",
+        id: "age",
+        name: "age",
+        children: [] 
+      }
+
+      button: 
+      {
+        tagName: "button",
+        className: "btn",
+        id: "rahul",
+        innerText: "Submit",
+        children: []
+      }
+
+
+     -->
+
+    <script src="./introduction.js"></script>
+  </body>
+</html>
