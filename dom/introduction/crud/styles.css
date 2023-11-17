@@ -1,0 +1,21 @@
+#container {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+#container > .test {
+    border: none ;
+    background-color: blue ;
+    color: white ;
+}
+
+/* #child {
+    color: red;
+} */
+/* #container > #child {
+    color: blue ;
+} */
+
+/* .test ~ .child {
+    color: red;
+} */
