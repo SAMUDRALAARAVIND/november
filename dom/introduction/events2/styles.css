@@ -1,0 +1,31 @@
+#scroll-container {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    overflow-y: scroll;
+}
+.item {
+    background-color: gray;
+    /* margin: 2px 0;
+    padding: 10px; */
+    height: 25px;
+}
+
+.root {
+    padding: 30px;
+    background-color: violet ;
+}
+.grand-parent {
+    padding: 30px;
+    background-color: dodgerblue;
+}
+
+.parent {
+    padding: 30px;
+    background-color: tomato;
+}
+
+.child {
+    padding: 30px;
+    background-color: green;
+}
