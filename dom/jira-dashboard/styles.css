@@ -53,3 +53,30 @@
     background-color: white;
     box-shadow: 0.2px 0.2px 1px #616F86;
 }
+.user {
+    width: 30px;
+    height: 30px;
+    background-color: #182A4D;
+    color: white ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.user-wrapper{
+    position: relative;
+}
+.users-list {
+    background-color: blue;
+    color: white ;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 32px;
+    left: 10px;
+    display: none;
+}
+.show-list+.users-list{
+    display: block;
+}

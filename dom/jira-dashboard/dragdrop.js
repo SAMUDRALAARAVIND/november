@@ -12,18 +12,33 @@ const draggingInfo = {
 }
 
 function onDragStart(event) {
+    // event.target => dragged element
     draggingInfo.sourceContainerId = event.target.getAttribute("data-container");
+    draggingInfo.draggingElement = event.target;
 }
 
 const onDragOver = (e) => {
     // getting nearest parent with the container class.
     // enable drop only when sourceContainer is not equal to dropping container
-    console.log(e.currentTarget);
+    // console.log(e.currentTarget);
+
+    let droppingContainer = e.currentTarget;
+    if (droppingContainer.id === draggingInfo.sourceContainerId) {
+        // the dropping container is equal to the source container from where the card is picked
+        return;
+    }
+
     e.preventDefault();
 }
 
-const onDrop = () => {
-    alert("Something dropped")
+const onDrop = (event) => {
+    // drop the card in the current container 
+    const card = draggingInfo.draggingElement;
+    const currentDropZone = event.currentTarget;
+
+    // append card inside the currentDropZone 
+    card.setAttribute("data-container", currentDropZone.id);
+    currentDropZone.appendChild(card);
 }
 
 for (let i = 0; i < containers.length; i++) {
