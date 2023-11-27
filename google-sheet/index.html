@@ -4,30 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spread Sheet</title>
+    <link rel="stylesheet" href="./options.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div id="options">
+      <form class="form">
+        <select name="fontFamily" class="input">
+          <option value="A">Monkoi</option>
+          <option value="B">Sans Pro</option>
+          <option value="C">Arial</option>
+        </select>
+        <input
+          class="input"
+          type="number"
+          name="fontSize"
+          min="8"
+          max="32"
+          value="16"
+        />
+        <div>
+          <input type="checkbox" id="bold" name="isBold" />
+          <label for="bold" class="material-icons">format_bold</label>
+        </div>
+        <div>
+          <input type="checkbox" id="italic" name="isItalic" />
+          <label class="material-icons" for="italic"> format_italic </label>
+        </div>
+        <div>
+          <input type="checkbox" id="underline" name="isUnderline" />
+          <label class="material-icons" for="underline">
+            format_underlined
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" name="align" value="left" id="left" />
+          <label class="material-icons" for="left"> format_align_left </label>
+          <input type="radio" name="align" value="center" id="center" />
+          <label class="material-icons" for="center">
+            format_align_center
+          </label>
+          <input type="radio" name="align" value="right" id="right" />
+          <label class="material-icons" for="right"> format_align_right </label>
+        </div>
+
+        <div>
+          <input type="color" name="textColor" id="textcolor" />
+          <label for="textcolor" class="material-icons"
+            >format_color_text</label
+          >
+        </div>
+        <div>
+          <input type="color" name="bgColor" id="bgcolor" />
+          <label for="bgcolor" class="material-icons">format_color_fill</label>
+        </div>
+      </form>
+    </div>
+    <div id="cell-state">
+      <div>C4</div>
+      <input type="text" placeholder="f ( x )" />
+    </div>
     <div id="root">
-      <div class="plate"></div>
       <div id="header">
-        <!-- <div class="head-cell"></div>
-        <div class="head-cell"></div>
-        <div class="head-cell"></div>
-        <div class="head-cell"></div>
-        <div class="head-cell"></div> -->
+        <div class="head-cell first"></div>
       </div>
       <div id="body">
-        <div id="sno">
-          <!-- <div class="sno-cell"></div>
-          <div class="sno-cell"></div>
-          <div class="sno-cell"></div>
-          <div class="sno-cell"></div>
-          <div class="sno-cell"></div> -->
-        </div>
-        <div id="cells-container"></div>
+        <div id="sno"></div>
+        <div id="body-container"></div>
       </div>
     </div>
 
     <script src="./index.js"></script>
+    <!-- <script src="./script.js"></script> -->
   </body>
 </html>

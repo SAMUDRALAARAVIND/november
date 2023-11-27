@@ -3,12 +3,12 @@
 }
 #root {
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     overflow: scroll;
-    margin-top: 100px;
     position: relative;
 }
 #header {
+    width: fit-content;
     display: flex;
     position: sticky;
     top: 0;
@@ -16,13 +16,17 @@
     background-color: #fff;
 }
 .head-cell:first-child {
-    background-color: #F8F9FA;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    left: 0;
     min-width: 40px !important;
+    padding: 0 .1px ;
 }
 .head-cell {
     min-width: 100px;
     height: 30px;
-    border: 1px solid #C4C7C5;
+    border: 0.1px solid #C4C7C5;
     border-top-width: 2px;
     text-align: center;
     display: flex;
@@ -40,24 +44,24 @@
     background-color: #fff;
 }
 .sno-cell {
+    min-width: 40px;
     height: 30px;
-    border: 1px solid gray;
+    border: .1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#cells-container {
 
+.row {
+    display: flex;
+}
+.cell {
+    border: 0.1px solid #C4C7C5;
+    min-width: 100px;
+    height: 30px ;
 }
 
-.plate {
-    width: 40px;
-    height: 30px;
-    background-color: red;
-    border: 1px solid red;
-    border-top-width: 2px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+.cell:focus {
+    /* border-radius: 0; */
+    outline: 2px solid #1B72E8;
 }
