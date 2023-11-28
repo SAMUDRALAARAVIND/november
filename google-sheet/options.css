@@ -50,3 +50,18 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 #cell-state input:focus {
     outline: none;
 }
+
+@font-face {
+    font-family: poppins-extra-bold;
+    src: url(./fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(./fonts/Poppins-Regular.ttf);
+}

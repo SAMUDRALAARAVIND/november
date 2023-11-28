@@ -1,0 +1,90 @@
+{
+  "A3": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "rwegewg"
+  },
+  "B7": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "rtrbr"
+  },
+  "A9": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "rtyhe"
+  },
+  "B11": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "hryhry"
+  },
+  "C9": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "ehrhy"
+  },
+  "C5": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "hryhyr"
+  },
+  "B2": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "ehre"
+  },
+  "D3": {
+    "fontFamily": "poppins-regular",
+    "fontSize": 16,
+    "isBold": false,
+    "isItalic": false,
+    "isUnderline": false,
+    "align": "left",
+    "textColor": "#000000",
+    "bgColor": "#ffffff",
+    "text": "hhr"
+  }
+}

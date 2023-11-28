@@ -61,7 +61,11 @@ for (let row = 1; row <= rows; row++) {
         const cell = document.createElement("div");
         cell.className = "cell";
         cell.contentEditable = true;
+        // col = 1 => "A1", "A2", "A3" ....
+        cell.id = `${String.fromCharCode(64 + col)}${row}`;
         rowElement.appendChild(cell);
+        cell.addEventListener("focus", onFocusCell)
+        cell.addEventListener("input", onChangeCellText);
     }
 
     bodyContainer.appendChild(rowElement);

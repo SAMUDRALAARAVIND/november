@@ -15,9 +15,9 @@
     <div id="options">
       <form class="form">
         <select name="fontFamily" class="input">
-          <option value="A">Monkoi</option>
-          <option value="B">Sans Pro</option>
-          <option value="C">Arial</option>
+          <option value="poppins-regular">Regular</option>
+          <option value="poppins-extra-bold">Extra Bold</option>
+          <option value="poppins-medium">Medium</option>
         </select>
         <input
           class="input"
@@ -43,7 +43,7 @@
         </div>
 
         <div>
-          <input type="radio" name="align" value="left" id="left" />
+          <input type="radio" name="align" value="left" id="left" checked />
           <label class="material-icons" for="left"> format_align_left </label>
           <input type="radio" name="align" value="center" id="center" />
           <label class="material-icons" for="center">
@@ -60,13 +60,16 @@
           >
         </div>
         <div>
-          <input type="color" name="bgColor" id="bgcolor" />
+          <input type="color" value="#ffffff" name="bgColor" id="bgcolor" />
           <label for="bgcolor" class="material-icons">format_color_fill</label>
         </div>
+        <span onclick="exportData()" id="export" class="material-icons"
+          >cloud_upload</span
+        >
       </form>
     </div>
     <div id="cell-state">
-      <div>C4</div>
+      <div id="active-cell">null</div>
       <input type="text" placeholder="f ( x )" />
     </div>
     <div id="root">
@@ -79,6 +82,7 @@
       </div>
     </div>
 
+    <script src="./functionality.js"></script>
     <script src="./index.js"></script>
     <!-- <script src="./script.js"></script> -->
   </body>

@@ -1,9 +1,10 @@
 *{
     margin: 0;
+    font-family: poppins-regular;
 }
 #root {
     width: 100vw;
-    height: 85vh;
+    height: 75vh;
     overflow: scroll;
     position: relative;
 }
@@ -24,8 +25,8 @@
     padding: 0 .1px ;
 }
 .head-cell {
-    min-width: 100px;
-    height: 30px;
+    min-width: 200px;
+    height: 20px;
     border: 0.1px solid #C4C7C5;
     border-top-width: 2px;
     text-align: center;
@@ -44,8 +45,9 @@
     background-color: #fff;
 }
 .sno-cell {
-    min-width: 40px;
-    height: 30px;
+    min-width: 30px;
+    height: 25px;
+    font-size: 14px;
     border: .1px solid gray;
     display: flex;
     justify-content: center;
@@ -57,11 +59,15 @@
 }
 .cell {
     border: 0.1px solid #C4C7C5;
-    min-width: 100px;
-    height: 30px ;
+    min-width: 200px;
+    height: 25px ;
 }
 
 .cell:focus {
-    /* border-radius: 0; */
     outline: 2px solid #1B72E8;
+}
+
+#export{ 
+    cursor: pointer;
+    font-size: 32px !important;
 }
