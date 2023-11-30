@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #line {
+        width: 200px;
+        background-color: black;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 2px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <div id="line"></div> -->
+
+    <!-- <div id="timer"></div> -->
+
+    <input type="range" id="rate" min="0" max="100" />
+    <input type="range" id="pitch" min="0" max="100" />
+    <textarea id="message"></textarea>
+    <button onclick="speak()">Speak</button>
+    <button onclick="pause()">Stop</button>
+
+    <script src="./clock.js"></script>
+  </body>
+</html>
